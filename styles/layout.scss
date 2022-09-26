@@ -1,0 +1,87 @@
+    @use "./variables.scss" as *;
+    * {
+        margin: 0;
+        padding: 0;
+        // background-color: $background-color;
+    }
+    
+    a:link,
+    a:visited {
+        text-decoration: none;
+        cursor: pointer;
+        background-color: $quaternary-color;
+        color: $primary-color;
+    }
+    
+    #arwa {
+        border-radius: 500px;
+        border: 2px solid $primary-color;
+        padding: 5px;
+        width: 300px;
+        height: auto;
+        background-color: $tertiary-color;
+        float: right;
+    }
+    
+    .top_banner {
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 95%;
+        padding: 50px;
+        background-color: $quaternary-color;
+        color: $primary-color;
+        margin: 2rem auto;
+        box-shadow: -2px 4px 12px $secondary-color;
+    }
+    
+    .button {
+        font-family: $secondary-font;
+    }
+    
+    header {
+        float: left;
+        font-size: 3rem;
+        justify-content: space-between;
+        font-family: $secondary-font;
+        background-color: $quaternary-color;
+    }
+    
+    nav {
+        float: right;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-family: $secondary-font;
+    }
+    
+    .mid_banner {
+        display: flex;
+        flex-wrap: nowrap;
+        float: left;
+    }
+    
+    .all_project_cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .project_cards {
+        width: 300px;
+        height: auto;
+        border: 20px;
+        border-radius: 25px;
+        text-align: center;
+        padding: 25px;
+        background-color: $quaternary-color;
+        color: $primary-color;
+        box-shadow: 5px 5px 5px 5px $secondary-color;
+        transition: opacity 0.3s ease;
+        // display: flex;
+        // justify-content: space-evenly;
+        // width: 300px;
+        // height: auto;
+        // border: 1px $primary-color;
+        // border-radius: 5px;
+        // text-align: center;
+    }

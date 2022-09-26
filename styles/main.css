@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #eaf7cf;
+  color: #92828d;
+}
+
+#arwa {
+  border-radius: 500px;
+  border: 2px solid #92828d;
+  padding: 5px;
+  width: 300px;
+  height: auto;
+  background-color: #ebefbf;
+  float: right;
+}
+
+.top_banner {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  padding: 50px;
+  background-color: #eaf7cf;
+  color: #92828d;
+  margin: 2rem auto;
+  box-shadow: -2px 4px 12px #ceb5a7;
+}
+
+.button {
+  font-family: "Bebas Neue";
+}
+
+header {
+  float: left;
+  font-size: 3rem;
+  justify-content: space-between;
+  font-family: "Bebas Neue";
+  background-color: #eaf7cf;
+}
+
+nav {
+  float: right;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-family: "Bebas Neue";
+}
+
+.mid_banner {
+  display: flex;
+  flex-wrap: nowrap;
+  float: left;
+}
+
+.all_project_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project_cards {
+  width: 300px;
+  height: auto;
+  border: 20px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  background-color: #eaf7cf;
+  color: #92828d;
+  box-shadow: 5px 5px 5px 5px #ceb5a7;
+  transition: opacity 0.3s ease;
+}/*# sourceMappingURL=main.css.map */
